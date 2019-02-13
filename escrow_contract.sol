@@ -1,4 +1,4 @@
-pragma solidity ^0.4.25;
+pragma solidity ^0.5.0;
 contract Escrow {
     address buyer;
     address seller;
@@ -14,6 +14,10 @@ contract Escrow {
         if (msg.value >= amt)  {
             amount = amt;
         }
+    }
+    
+    function getSellerAndBuyerDetails()public view returns(address, address, uint){
+        return(seller,buyer,amount);
     }
 
     function release() public {

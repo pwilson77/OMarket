@@ -16,12 +16,16 @@
   <body>
     <div class="row">
       <div class="col-xl-4">
-        <input type="text" placeholder="Seller Address" id="sellerAddress" />
-        <input type="number" placeholder="amount" id="sellerPrice" />
+        <form id="seller">
+          <input type="text" placeholder="Seller Address" id="sellerAddress" />
+          <input type="number" placeholder="amount" id="sellerPrice" />
+          <button type="submit" class="btn btn-primary" id="pay">
+            PAY
+          </button>
+        </form>
       </div>
       <div class="col-xl-8">
         <input type="text" placeholder="input amount" id="buyerAddress" />
-        <button class="btn btn-primary" id="pay">PAY</button>
       </div>
     </div>
 

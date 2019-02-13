@@ -23,6 +23,19 @@ var escrowContractABI = [
     type: "function"
   },
   {
+    constant: true,
+    inputs: [],
+    name: "getSellerAndBuyerDetails",
+    outputs: [
+      { name: "", type: "address" },
+      { name: "", type: "address" },
+      { name: "", type: "uint256" }
+    ],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+  },
+  {
     constant: false,
     inputs: [],
     name: "void",
@@ -53,22 +66,23 @@ var escrowContractABI = [
     type: "function"
   }
 ];
-var escrowContractAddress = "0x7ebb95bf419dc054beb163c6fd1c4c45a2885668";
+var escrowContractAddress = "0x12745f280b67a42eccf4a0ce26c9069727ba4301";
 var escrowContract = web3.eth.contract(escrowContractABI);
 var escrowContractInstance = escrowContract.at(escrowContractAddress);
+var sellerAmountUnconverted;
 
-$("#pay").on("click", function() {
+$("#seller").on("submit", function() {
   var sellerAddress = $("#sellerAddress").val();
-  var sellerAmountUnconverted = $("#sellerPrice").val();
+  var sellerAmountUnconverted = parseInt(
+    document.getElementById("sellerPrice").value
+  );
   var sellerAmountConverted = web3.toWei(sellerAmountUnconverted, "ether");
   escrowContractInstance.setSellerAndAmt(
     sellerAddress,
     sellerAmountConverted,
     {
       from: web3.eth.accounts[0],
-      value: web3.toWei("2", "ether"),
-      data: sellerAddress,
-      sellerAmountConverted
+      value: web3.toWei(sellerAmountUnconverted, "ether")
     },
     function(err, result) {
       if (!err) {
