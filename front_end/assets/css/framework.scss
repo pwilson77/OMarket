@@ -12,6 +12,11 @@ $col-size: $width / 12;
 .center {
   justify-content: center;
 }
+
+.center-2 {
+  justify-self: center;
+}
+
 .flex {
   display: flex;
 }
@@ -77,4 +82,19 @@ $col-size: $width / 12;
       margin-left: $col-size * $i;
     }
   }
+}
+
+// navbar
+nav {
+  .nav-link {
+    font-family: "Titillium Web", sans-serif;
+    font-size: medium;
+    padding: 10px;
+  }
+}
+
+//Heading
+.heading {
+  font-size: medium;
+  font-family: "Titillium Web", sans-serif;
 }

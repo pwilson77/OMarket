@@ -16,6 +16,11 @@
           justify-content: center;
 }
 
+.center-2 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -299,5 +304,16 @@
   .offset-sm-12 {
     margin-left: 100%;
   }
+}
+
+nav .nav-link {
+  font-family: "Titillium Web", sans-serif;
+  font-size: medium;
+  padding: 10px;
+}
+
+.heading {
+  font-size: medium;
+  font-family: "Titillium Web", sans-serif;
 }
 /*# sourceMappingURL=framework.css.map */
