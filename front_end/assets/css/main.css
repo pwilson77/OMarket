@@ -1,0 +1,32 @@
+body {
+  margin: 0%;
+}
+/*Section one*/
+.section-one {
+  height: 100vh;
+  background-color: #223e9c;
+}
+
+.hero-text {
+  align-content: center;
+  height: 90%;
+}
+
+.hero-text .heading {
+  align-self: center;
+}
+
+.hero-text p {
+  margin: 20px 0px 60px;
+  color: #7582b9;
+}
+
+/*Dashboard NavBar*/
+.dashboard {
+  height: 60px;
+  background-color: #223e9c;
+}
+
+.dashboard .nav-link {
+  padding: 20px;
+}

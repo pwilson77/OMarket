@@ -1,0 +1,507 @@
+/* http: //meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.center-2 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.flex-start {
+  justify-self: flex-start;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 100;
+}
+
+.col-xl-1 {
+  width: 8.33333%;
+}
+
+.offset-xl-1 {
+  margin-left: 8.33333%;
+}
+
+.col-xl-2 {
+  width: 16.66667%;
+}
+
+.offset-xl-2 {
+  margin-left: 16.66667%;
+}
+
+.col-xl-3 {
+  width: 25%;
+}
+
+.offset-xl-3 {
+  margin-left: 25%;
+}
+
+.col-xl-4 {
+  width: 33.33333%;
+}
+
+.offset-xl-4 {
+  margin-left: 33.33333%;
+}
+
+.col-xl-5 {
+  width: 41.66667%;
+}
+
+.offset-xl-5 {
+  margin-left: 41.66667%;
+}
+
+.col-xl-6 {
+  width: 50%;
+}
+
+.offset-xl-6 {
+  margin-left: 50%;
+}
+
+.col-xl-7 {
+  width: 58.33333%;
+}
+
+.offset-xl-7 {
+  margin-left: 58.33333%;
+}
+
+.col-xl-8 {
+  width: 66.66667%;
+}
+
+.offset-xl-8 {
+  margin-left: 66.66667%;
+}
+
+.col-xl-9 {
+  width: 75%;
+}
+
+.offset-xl-9 {
+  margin-left: 75%;
+}
+
+.col-xl-10 {
+  width: 83.33333%;
+}
+
+.offset-xl-10 {
+  margin-left: 83.33333%;
+}
+
+.col-xl-11 {
+  width: 91.66667%;
+}
+
+.offset-xl-11 {
+  margin-left: 91.66667%;
+}
+
+.col-xl-12 {
+  width: 100%;
+}
+
+.offset-xl-12 {
+  margin-left: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-md-1 {
+    width: 8.33333%;
+  }
+  .offset-md-1 {
+    margin-left: 8.33333%;
+  }
+  .col-md-2 {
+    width: 16.66667%;
+  }
+  .offset-md-2 {
+    margin-left: 16.66667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+  .col-md-4 {
+    width: 33.33333%;
+  }
+  .offset-md-4 {
+    margin-left: 33.33333%;
+  }
+  .col-md-5 {
+    width: 41.66667%;
+  }
+  .offset-md-5 {
+    margin-left: 41.66667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .offset-md-6 {
+    margin-left: 50%;
+  }
+  .col-md-7 {
+    width: 58.33333%;
+  }
+  .offset-md-7 {
+    margin-left: 58.33333%;
+  }
+  .col-md-8 {
+    width: 66.66667%;
+  }
+  .offset-md-8 {
+    margin-left: 66.66667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .offset-md-9 {
+    margin-left: 75%;
+  }
+  .col-md-10 {
+    width: 83.33333%;
+  }
+  .offset-md-10 {
+    margin-left: 83.33333%;
+  }
+  .col-md-11 {
+    width: 91.66667%;
+  }
+  .offset-md-11 {
+    margin-left: 91.66667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .offset-md-12 {
+    margin-left: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col-sm-1 {
+    width: 8.33333%;
+  }
+  .offset-sm-1 {
+    margin-left: 8.33333%;
+  }
+  .col-sm-2 {
+    width: 16.66667%;
+  }
+  .offset-sm-2 {
+    margin-left: 16.66667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .offset-sm-3 {
+    margin-left: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+  .offset-sm-4 {
+    margin-left: 33.33333%;
+  }
+  .col-sm-5 {
+    width: 41.66667%;
+  }
+  .offset-sm-5 {
+    margin-left: 41.66667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .offset-sm-6 {
+    margin-left: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33333%;
+  }
+  .offset-sm-7 {
+    margin-left: 58.33333%;
+  }
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+  .offset-sm-8 {
+    margin-left: 66.66667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .offset-sm-9 {
+    margin-left: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33333%;
+  }
+  .offset-sm-10 {
+    margin-left: 83.33333%;
+  }
+  .col-sm-11 {
+    width: 91.66667%;
+  }
+  .offset-sm-11 {
+    margin-left: 91.66667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .offset-sm-12 {
+    margin-left: 100%;
+  }
+}
+
+nav .nav-link-2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: medium;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .nav-link {
+  font-family: "Titillium Web", sans-serif;
+  font-size: medium;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .nav-link:hover {
+  font-weight: bolder;
+}
+
+.heading {
+  font-size: -webkit-xxx-large;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+
+.btn.btn-green {
+  background-color: #5cac72;
+  border-radius: 24px;
+  height: 40px;
+  color: white;
+  border-color: transparent;
+}
+
+.btn.btn-green:hover {
+  background-color: transparent;
+  height: 40px;
+  font-weight: bolder;
+  color: white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.btn.btn-light {
+  background-color: transparent;
+  height: 40px;
+  font-weight: bolder;
+  border-color: transparent;
+  color: white;
+}
+
+.btn.btn-light:hover {
+  background-color: #5cac72;
+  border-radius: 24px;
+  height: 40px;
+  color: white;
+  border-color: transparent;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  border: 1px;
+}
+/*# sourceMappingURL=framework.css.map */
