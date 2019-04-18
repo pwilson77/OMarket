@@ -66,7 +66,7 @@ var escrowContractABI = [
     type: "function"
   }
 ];
-var escrowContractAddress = "0x12745f280b67a42eccf4a0ce26c9069727ba4301";
+var escrowContractAddress = "0x0b9c69752a1fe960273c8abcecf1dd719879f084";
 var escrowContract = web3.eth.contract(escrowContractABI);
 var escrowContractInstance = escrowContract.at(escrowContractAddress);
 var sellerAmountUnconverted;
