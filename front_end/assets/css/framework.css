@@ -159,7 +159,7 @@ table {
 }
 
 .center-3 {
-  height: 100%;
+  height: -webkit-fill-available;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -531,5 +531,15 @@ nav .nav-link:hover {
 
 .btn.btn-row {
   background-color: transparent;
+  text-align: left;
+  height: 100px;
+  border-color: transparent;
+}
+
+.btn.btn-row:hover {
+  background-color: white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  border-color: transparent;
 }
 /*# sourceMappingURL=framework.css.map */
