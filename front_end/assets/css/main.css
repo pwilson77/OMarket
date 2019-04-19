@@ -96,3 +96,27 @@ body {
   font-size: x-small;
   padding: 4px;
 }
+
+/*Section two*/
+.section-two{
+  height: 100vh;
+  background-color: #fff;
+}
+
+
+.hero-text-two {
+  align-content: center;
+  height: 90%;
+}
+
+.hero-text-two .heading {
+  align-self: center;
+  color: #07265f;
+}
+
+.hero-text-two p {
+  margin: 20px 0px 60px;
+  color: #07265f;
+
+}
+
