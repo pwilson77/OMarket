@@ -106,26 +106,9 @@ body {
   background-color: #fff;
 }
 
-.hero-text-two {
-  padding-top: 20%;
-  align-content: center;
-  height: 90%;
-}
-
-.hero-text-two .heading {
-  align-self: center;
-  color: #07265f;
-}
-
-.hero-text-two p {
-  margin: 20px 0px 60px;
-  color: #07265f;
-}
-
-.top {
-  height: 50vh;
-}
-
-.bottom {
-  height: 50vh;
+.main-box
+{
+  border: solid 1px black;
+  width: 20%;
+  height: 20vh;
 }
