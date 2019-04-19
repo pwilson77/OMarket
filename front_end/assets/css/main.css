@@ -105,6 +105,7 @@ body {
 
 
 .hero-text-two {
+  padding-top: 20%;
   align-content: center;
   height: 90%;
 }
@@ -117,6 +118,13 @@ body {
 .hero-text-two p {
   margin: 20px 0px 60px;
   color: #07265f;
+}
 
+.top{
+  height: 50vh;
+}
+
+.bottom{
+  height: 50vh;
 }
 
