@@ -158,6 +158,12 @@ table {
       justify-self: center;
 }
 
+.center-3 {
+  height: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -521,5 +527,9 @@ nav .nav-link:hover {
   font-weight: bolder;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+}
+
+.btn.btn-row {
+  background-color: transparent;
 }
 /*# sourceMappingURL=framework.css.map */

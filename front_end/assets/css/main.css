@@ -73,4 +73,26 @@ body {
 /*Content*/
 .content {
   background-color: #fafbff;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.content .row {
+  padding: 10px;
+}
+
+.content .row div img {
+  height: 50px;
+}
+
+.content-info h2,
+.content h2 {
+  font-weight: bolder;
+  color: #07265f;
+}
+
+.content-info p,
+.content p {
+  font-size: x-small;
+  padding: 4px;
 }

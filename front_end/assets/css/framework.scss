@@ -18,6 +18,11 @@ $col-size: $width / 12;
   justify-self: center;
 }
 
+.center-3 {
+  height: 100%;
+  align-content: center;
+}
+
 .flex {
   display: flex;
 }
@@ -160,5 +165,8 @@ nav {
       font-weight: bolder;
       transition-duration: 1s;
     }
+  }
+  &.btn-row {
+    background-color: transparent;
   }
 }
