@@ -1,0 +1,6 @@
+.data-box {
+  border-bottom: 1px solid;
+  height: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
