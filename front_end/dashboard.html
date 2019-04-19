@@ -6,8 +6,14 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://fonts.googleapis.com/css?family=Titillium+Web"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -23,16 +29,33 @@
     />
   </head>
   <body>
-    <nav class="col-xl-12 flex dashboard">
+    <!-- <nav class="col-xl-12 flex dashboard">
       <div class="col-xl-2 heading">ESCROW</div>
       <div class="col-xl-6 flex center">
         <a href="#" class="nav-link"> HOME</a>
         <a href="#" class="nav-link"> HOME</a>
         <a href="#" class="nav-link"> HOME</a>
       </div>
-      <div class="col-xl-4 flex right">
-        <a href="#"></a>
+      <div class="col-xl-4 flex right nav-col">
+        <a href="#" class="nav-link"> <i class="fas fa-envelope"></i></a>
+        <a href="#" class="nav-link"><i class="fas fa-bell"></i></a>
       </div>
-    </nav>
+    </nav> -->
+    <section>
+      <div class="row col-xl-12">
+        <div class="col-xl-3 side-menu">
+          <div class="col-xl-12 flex center">
+            <img src="assets/images/user.jpg" alt="user-image" />
+          </div>
+          <p class="col-xl-12 side-menu-name">Philip Yirenkyi</p>
+          <div class="col-xl-12 side-menu-links">
+            <button class="btn btn-side-menu col-xl-12">Home</button>
+            <button class="btn btn-side-menu col-xl-12">Dashboard</button
+            ><button class="btn btn-side-menu col-xl-12">Transactions</button>
+          </div>
+        </div>
+        <div class="col-xl-9 content"></div>
+      </div>
+    </section>
   </body>
 </html>

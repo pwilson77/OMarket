@@ -23,10 +23,54 @@ body {
 
 /*Dashboard NavBar*/
 .dashboard {
-  height: 60px;
-  background-color: #223e9c;
+  height: 50px;
+  background-color: #304773;
 }
 
 .dashboard .nav-link {
+  padding: 16px;
+}
+
+.fa-user {
+  font-size: larger;
+}
+
+.nav-col .nav-link {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: #c6c8c9;
+}
+
+.info-section {
+  height: 100px;
+}
+
+/*Sidemenu */
+.side-menu {
   padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  position: fixed;
+}
+
+.side-menu img {
+  height: 200px;
+}
+.side-menu p {
+  box-sizing: border-box;
+  padding: 0%;
+  height: 40px;
+}
+.side-menu-links {
+  padding-top: 60px;
+}
+
+.side-menu-name {
+  text-align: center;
+  padding: 20px;
+}
+
+/*Content*/
+.content {
+  background-color: #fafbff;
 }

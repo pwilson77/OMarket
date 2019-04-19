@@ -446,7 +446,7 @@ table {
 nav .nav-link-2 {
   font-family: "Titillium Web", sans-serif;
   font-size: medium;
-  padding: 20px;
+  margin: 20px;
   color: white;
   text-decoration: none;
 }
@@ -503,5 +503,23 @@ nav .nav-link:hover {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   border: 1px;
+}
+
+.btn.btn-side-menu {
+  height: 40px;
+  background-color: transparent;
+  color: black;
+  border-color: transparent;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn.btn-side-menu:hover {
+  background-color: #e8f3ff;
+  border-radius: 12px;
+  color: #62b6fe;
+  font-weight: bolder;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 /*# sourceMappingURL=framework.css.map */

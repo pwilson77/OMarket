@@ -146,4 +146,19 @@ nav {
       border: 1px;
     }
   }
+  &.btn-side-menu {
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    &:hover {
+      background-color: #e8f3ff;
+      border-radius: 12px;
+      color: #62b6fe;
+      font-weight: bolder;
+      transition-duration: 1s;
+    }
+  }
 }
