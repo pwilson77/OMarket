@@ -19,7 +19,7 @@ $col-size: $width / 12;
 }
 
 .center-3 {
-  height: 100%;
+  height: -webkit-fill-available;
   align-content: center;
 }
 
@@ -168,5 +168,13 @@ nav {
   }
   &.btn-row {
     background-color: transparent;
+    text-align: left;
+    height: 100px;
+    border-color: transparent;
+    &:hover {
+      background-color: white;
+      transition-duration: 1s;
+      border-color: transparent;
+    }
   }
 }

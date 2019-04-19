@@ -72,9 +72,10 @@ body {
 
 /*Content*/
 .content {
-  background-color: #fafbff;
+  background-color: #edf0fd8f;
   font-family: "Montserrat", sans-serif;
   padding: 20px;
+  height: -webkit-fill-available;
 }
 
 .content .row {
@@ -82,9 +83,11 @@ body {
 }
 
 .content .row div img {
-  height: 50px;
+  height: 70px;
 }
-
+.content-info {
+  margin-bottom: 60px;
+}
 .content-info h2,
 .content h2 {
   font-weight: bolder;
