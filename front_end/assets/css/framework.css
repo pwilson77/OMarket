@@ -455,6 +455,9 @@ nav .nav-link-2 {
   margin: 20px;
   color: white;
   text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 nav .nav-link {
@@ -463,6 +466,9 @@ nav .nav-link {
   padding: 10px;
   color: white;
   text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 nav .nav-link:hover {
