@@ -67,7 +67,7 @@
         }
 
         
-        function newEscrow(address sellerAddress, address escrowAddress, bytes32 notes) payable returns (bool) {
+        function newEscrow(address sellerAddress, address escrowAddress, string notes) payable returns (bool) {
 
             require(msg.value > 0 && msg.sender != escrowAddress);
         

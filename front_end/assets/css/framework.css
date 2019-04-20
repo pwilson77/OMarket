@@ -450,7 +450,7 @@ table {
 }
 
 nav .nav-link-2 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Century Gothic";
   font-size: medium;
   margin: 20px;
   color: white;
@@ -458,7 +458,7 @@ nav .nav-link-2 {
 }
 
 nav .nav-link {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Century Gothic";
   font-size: medium;
   padding: 10px;
   color: white;
@@ -471,7 +471,7 @@ nav .nav-link:hover {
 
 .heading {
   font-size: -webkit-xxx-large;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Century Gothic";
   color: white;
 }
 

@@ -7,11 +7,11 @@ body {
   background-color: #223e9c;
 }
 
-.logo img{
-  width: 100px;;
+.logo img {
+  width: 100px;
 }
 
-.logo-two img{
+.logo-two img {
   width: 300%;
 }
 
@@ -109,29 +109,27 @@ body {
 }
 
 /*Section two*/
-.main-one{
+.main-one {
   height: 100vh;
   width: 100%;
   background-color: #fff;
-
 }
 
-.heading-one{
+.heading-one {
   font-size: 50px;
 }
 
-.info-box-top{
+.info-box-top {
   position: relative;
   height: 20vh;
   width: 30%;
   color: #07265f;
   right: -60px;
-  top: 100px;    
+  top: 100px;
   font-family: "Century Gothic";
-
 }
 
-.info-box-bottom{
+.info-box-bottom {
   width: 100%;
   height: 30vh;
   color: palevioletred;
@@ -139,7 +137,7 @@ body {
   font-family: "Century Gothic";
 }
 
-.info-box-bottom div{
+.info-box-bottom div {
   position: relative;
   height: 30vh;
   width: 30%;
@@ -152,20 +150,18 @@ body {
   padding-right: 70px;
 }
 
-.info-box-bottom h3{
+.info-box-bottom h3 {
   font-size: 30px;
 }
 
-.main-box
-{
+.main-box {
   border: solid 1px black;
   width: 20%;
   height: 20vh;
 }
 
 /*login & signup*/
-.log_in
-{
+.log_in {
   width: 375px;
   height: 450px;
   background-color: rgba(255, 255, 255);
@@ -175,65 +171,56 @@ body {
   z-index: 100;
 }
 
-.log_in h2
-{
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding: 0%;
-    color: #07265f;
-    align-self: center;
-    text-align: center;
-
+.log_in h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0%;
+  color: #07265f;
+  align-self: center;
+  text-align: center;
 }
-.userimg
-{
-    border-radius: 50%;
-    width: 80px;
-    position: relative;
-    top: -45px;
-    margin: 0;
-    padding: 0;
+.userimg {
+  border-radius: 50%;
+  width: 80px;
+  position: relative;
+  top: -45px;
+  margin: 0;
+  padding: 0;
 }
-.inputs{
+.inputs {
   align-self: center;
 }
-.inputs input
-{
-    
-    margin-bottom: 10px;
-    height: 35px;
-    border: solid 1px #07265f;
-    border-radius: 15px;
-    font-family: "Century Gothic";
-    font-size: 15px;
-    padding-left: 10px;
-    color: none;
-    position: relative;
-} 
-
-
-.forgot a
-{
-    text-decoration: none;
-    color: #07265f;
+.inputs input {
+  margin-bottom: 10px;
+  height: 35px;
+  border: solid 1px #07265f;
+  border-radius: 15px;
+  font-family: "Century Gothic";
+  font-size: 15px;
+  padding-left: 10px;
+  color: none;
+  position: relative;
 }
 
-.loginb
-{
-    background-color: #5cac72;
-    border-radius: 23px;
-    font-family: "Century Gothic";
-    font-size: 15px;
-    border: none;
-    color: white;
-    height: 50px;
-    cursor: pointer;
+.forgot a {
+  text-decoration: none;
+  color: #07265f;
 }
 
-.sign
-{
-    position: relative;
-    left: 10%;
+.loginb {
+  background-color: #5cac72;
+  border-radius: 23px;
+  font-family: "Century Gothic";
+  font-size: 15px;
+  border: none;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+}
+
+.sign {
+  position: relative;
+  left: 10%;
 }
 
 .hidden {
@@ -246,4 +233,8 @@ body {
   background-color: #07265f;
   justify-content: center;
   align-items: center;
+}
+
+.extest {
+  font-family: "Century Gothic";
 }
