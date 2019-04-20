@@ -98,6 +98,7 @@ nav {
     margin: 20px;
     color: white;
     text-decoration: none;
+    align-self: center;
   }
   .nav-link {
     font-family: "Century Gothic";
@@ -105,6 +106,7 @@ nav {
     padding: 10px;
     color: white;
     text-decoration: none;
+    align-self: center;
     &:hover {
       font-weight: bolder;
     }
