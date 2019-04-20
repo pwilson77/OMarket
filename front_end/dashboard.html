@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Dashboard | Transactions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -37,9 +37,9 @@
           </div>
           <p class="col-xl-12 side-menu-name">Philip Yirenkyi</p>
           <div class="col-xl-12 side-menu-links">
-            <button class="btn btn-side-menu col-xl-12">Home</button>
-            <button class="btn btn-side-menu col-xl-12">Dashboard</button
-            ><button class="btn btn-side-menu col-xl-12">Transactions</button>
+            <a href="../front_end/profile.html"><button class="btn btn-side-menu col-xl-12">Home</button></a>
+            <button class="btn btn-side-menu col-xl-12">Dashboard</button>
+            <a href="../front_end/dashboard.html"><button class="btn btn-side-menu col-xl-12">Transactions</button></a>
           </div>
         </div>
         <div class="offset-xl-3 col-xl-9 content">
@@ -47,22 +47,25 @@
             <h2>Transactions</h2>
             <p>You've got 2 new transactions</p>
           </div>
-          <button class="row btn btn-row">
-            <div class="col-xl-1 flex-wrap center-3">
-              <img src="assets/images/user.png" />
-            </div>
-            <div class="col-xl-3 flex-wrap center-3">
-              <h2 class="col-xl-12">Adelina Thorsen</h2>
-              <p class="col-xl-12">Dec 16, 2017</p>
-            </div>
-            <div class="col-xl-8 flex-wrap center-3">
-              <h2 class="col-xl-12">Reminder - this month's payment</h2>
-              <p class="col-xl-12">
-                Hi Lucas, This is Adelina from customer support I just wanted
-                to send you a reminder about...
-              </p>
-            </div>
-          </button>
+          <a href="../front_end/transaction.html">
+            <button class="row btn btn-row">
+                <div class="col-xl-1 flex-wrap center-3">
+                  <img src="assets/images/user.png" />
+                </div>
+                <div class="col-xl-3 flex-wrap center-3">
+                  <h2 class="col-xl-12">Adelina Thorsen</h2>
+                  <p class="col-xl-12">Dec 16, 2017</p>
+                </div>
+                <div class="col-xl-8 flex-wrap center-3">
+                  <h2 class="col-xl-12">Reminder - this month's payment</h2>
+                  <p class="col-xl-12">
+                    Hi Lucas, This is Adelina from customer support I just wanted
+                    to send you a reminder about...
+                  </p>
+                </div>
+              </button>
+          </a>
+          
         </div>
       </div>
     </section>

@@ -23,8 +23,8 @@
           <a href="#" class="nav-link col-xl-4"> ABOUT</a>
         </div>
         <div class="nav-link col-xl-4 flex right">
-          <button class="btn btn-green col-xl-4" onclick="window.location.href='signup.html'">SIGN UP</button>
-          <button class="btn btn-light col-xl-4 offset-xl-1" onclick="window.location.href='login.html'">LOG IN</button>
+          <button class="btn btn-green col-xl-4" onclick="window.location.href='{{route('register')}}'">SIGN UP</button>
+          <button class="btn btn-light col-xl-4 offset-xl-1" onclick="window.location.href='{{route('login')}}'">LOG IN</button>
         </div>
       </nav>
     </div>

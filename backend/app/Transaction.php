@@ -9,6 +9,6 @@ class Transaction extends Model
     
 
     public function users(){
-      return $this->belongsToMany(Üser::class);
+      return $this->belongsToMany(User::class);
     }
 }
