@@ -7,6 +7,14 @@ body {
   background-color: #223e9c;
 }
 
+.logo img{
+  width: 100px;;
+}
+
+.logo-two img{
+  width: 300%;
+}
+
 .hero-text {
   align-content: center;
   height: 90%;
@@ -101,9 +109,51 @@ body {
 }
 
 /*Section two*/
-.section-two {
+.main-one{
   height: 100vh;
+  width: 100%;
   background-color: #fff;
+
+}
+
+.heading-one{
+  font-size: 50px;
+}
+
+.info-box-top{
+  position: relative;
+  height: 20vh;
+  width: 30%;
+  color: #07265f;
+  right: -60px;
+  top: 100px;    
+  font-family: "Century Gothic";
+
+}
+
+.info-box-bottom{
+  width: 100%;
+  height: 30vh;
+  color: palevioletred;
+  display: flex;
+  font-family: "Century Gothic";
+}
+
+.info-box-bottom div{
+  position: relative;
+  height: 30vh;
+  width: 30%;
+  color: #07265f;
+  background-color: #fff;
+  top: 250px;
+  right: -60px;
+  overflow: hidden;
+  margin-right: 10px;
+  padding-right: 70px;
+}
+
+.info-box-bottom h3{
+  font-size: 30px;
 }
 
 .main-box
@@ -111,4 +161,89 @@ body {
   border: solid 1px black;
   width: 20%;
   height: 20vh;
+}
+
+/*login & signup*/
+.log_in
+{
+  width: 375px;
+  height: 450px;
+  background-color: rgba(255, 255, 255);
+  border-radius: 10%;
+  font-family: "Century Gothic";
+  position: absolute;
+  z-index: 100;
+}
+
+.log_in h2
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 0%;
+    color: #07265f;
+    align-self: center;
+    text-align: center;
+
+}
+.userimg
+{
+    border-radius: 50%;
+    width: 80px;
+    position: relative;
+    top: -45px;
+    margin: 0;
+    padding: 0;
+}
+.inputs{
+  align-self: center;
+}
+.inputs input
+{
+    
+    margin-bottom: 10px;
+    height: 35px;
+    border: solid 1px #07265f;
+    border-radius: 15px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    padding-left: 10px;
+    color: none;
+    position: relative;
+} 
+
+
+.forgot a
+{
+    text-decoration: none;
+    color: #07265f;
+}
+
+.loginb
+{
+    background-color: #5cac72;
+    border-radius: 23px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    border: none;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sign
+{
+    position: relative;
+    left: 10%;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-container {
+  height: 100%;
+  position: absolute;
+  background-color: #0000009c;
+  justify-content: center;
+  align-items: center;
 }
