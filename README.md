@@ -1,2 +1,2 @@
 # OMarket
-A online market hosted on the ethereum blockchain
+A online market hosted on the ethereum blockchain.
