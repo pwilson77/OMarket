@@ -15,10 +15,13 @@ class CreateTransactionsTable extends Migration
     {
         Schema::create('transactions', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string("seller_address");
-            $table->string("buyer_address");
+            $table->unsignedBigInteger("seller_id");
+            $table->unsignedBigInteger("buyer_id");
             $table->boolean("validated")->default(false);
             $table->timestamps();
+
+            $table->foreign('seller_id')->references('id')->on('users');
+            $table->foreign('buyer_id')->references('id')->on('users');
         });
     }
 

@@ -15,6 +15,7 @@ class TransactionController extends Controller
     public function index()
     {
         //
+        return view('transaction.index')->withTransactions(Transaction::all());
     }
 
     /**
@@ -25,6 +26,7 @@ class TransactionController extends Controller
     public function create()
     {
         //
+        return view('transaction.create');
     }
 
     /**
